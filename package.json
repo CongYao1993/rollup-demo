@@ -12,6 +12,16 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-html": "^1.0.4",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "gogocode": "^1.0.55",
     "rollup": "^4.22.5"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1"
   }
 }
