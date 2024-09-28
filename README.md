@@ -153,16 +153,16 @@ npm i core-js -s
 
 .babelrc
 
+- `"useBuiltIns": "usage"`：开启按需 polyfill
+- `"corejs": 3`：使用 core-js3.x 版本进行确实对象的补全
+
 ```json
 {
   "presets": [
     [
-      // 加载 preset-env
       "@babel/preset-env",
       {
-        // 开启按需 polyfill
         "useBuiltIns": "usage",
-        // 使用 core-js3.x 版本进行确实对象的补全
         "corejs": 3
       }
     ]
